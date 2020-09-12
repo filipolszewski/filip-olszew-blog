@@ -1,2 +1,6 @@
 # filip-olszew-blog
-Articles for filip-olszew blog. All articles written by Filip Olszewski.
+Articles for filip-olszew blog. 
+
+All articles written by Filip Olszewski.
+
+Website coming soon.
