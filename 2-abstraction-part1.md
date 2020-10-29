@@ -23,7 +23,7 @@ We can play this game further (try it out for yourself!), but the point I want t
 
 I'm not an academic and we won't construct a theoretical proof for this statement - obviously - but if you strongly disagree - let me know. 
 
-We can talk abstract for weeks, but what practical implications this have on our day-to-day activities? Hopefully some of my reflections will get you thinking. This is all coming from my personal experience and I would be very happy to hear what do you think about the points I'll make below. I am pretty sure, that this post is not the last one about abstraction - so if you find it interesting, consider following me on Twitter and registering to my newsletter.
+We can talk abstract for weeks, but what practical implications this have on our day-to-day activities? Hopefully some of my reflections will get you thinking. This is all coming from my personal experience and I would be very happy to hear what do you think about the points I'll make below. I am pretty sure, that this post is not the last one about abstraction - so if you find it interesting, consider following me on Twitter.
 
 **Part 1:**
 
@@ -34,7 +34,7 @@ We can talk abstract for weeks, but what practical implications this have on our
 - Alternative approach to teaching OOP	
 - Understanding evolution of software & technology
 
-# That once Clean Code rule
+# That one Clean Code rule
 
 If you have already read Clean Code book, I have a question for you (if you recruit people, perhaps it's a cool question to ask on an interview?):
 
