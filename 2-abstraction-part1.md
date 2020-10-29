@@ -54,7 +54,7 @@ The other place - the one I always check during code reviews - is the unit tests
 
 I used a lot of abstraction-related phrases quite extensively already. As I am all about improving communication in software development teams, let's looks closer into how that 'slang' can be used to improve discussions about design.
 
-# Abstraction-Oriented slang
+## **Abstraction-Oriented slang**
 
 This section might be a bit obvious for those who are already experienced programmers or designers, but I think it's still worth to talk about some of the most common phrases when we talk about managing abstraction in our projects. What I introduce here is not an 'established' common slang - this is only my way of talking about it.
 
@@ -68,4 +68,20 @@ Let's come back to the *Extract Method* refactoring technique. It's another exam
 
 Generalization is a process of doing work in the vertical axis of abstraction space. What about the horizontal axis? This is where the Separation Of Concerns comes into play.
 
-TBC
+### *Abstraction vs. naming things*
+
+When we stay on the same abstraction layer, we can control the amount of abstraction there is on that layer. How do you add abstraction though?
+
+The amount of abstraction increases when you give something a meaningful name.
+
+Have you ever thought of it that way? We constantly add abstraction when programming, as we write and name variables, methods, classes, packages. This has implications in the slang: more experienced programmers can take a look at someone's code and say "this lacks abstraction". What they mean is that something is happening in the code and it should be represented in a more clear way - extracted to a separate entity (method, class) and given a meaningful name. 
+
+Lack of abstraction might not only be a problem of naming, but - more importantly - about design flexibility. We introduce design patterns to tackle those problems (among others) and usually the patterns are based on some new abstraction that has to be added. I like how it all connects to the fundamental theorem of programming, which might be my all-time favorite:
+
+> "We can solve any problem by introducing an extra level of indirection"
+> 
+> "…except for the problem of too many levels of indirection"
+
+But let's not get lost in the Wikipedia definitions. If you're new to abstraction slang, I hope you'll just remember that when you are suggested to add abstraction, it usually means that you have too much stuff going on in your code that should be extracted and well named. As this post is not a tutorial about domain and object modelling, I might come back to this topic in a separate blog post later on. If you can't wait though - you might want to check out [Jakub Pilimon's presentation](https://www.youtube.com/watch?v=Ms7zCjbT8-4&feature=youtu.be) that came out recently.
+
+This is the end of part 1. In the next part, we'll discuss other strategy for teaching other people programming (having the importance of abstraction in mind), and we'll get even more abstract to talk about the evolution of software & technology.Until I find a satisfying solution to the comment section problem, please let me know what you think using Twitter!
